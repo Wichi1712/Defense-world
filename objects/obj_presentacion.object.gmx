@@ -51,23 +51,24 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font( font_presentacion);
+            <string>///Historia de introduccion
+draw_set_font( font_presentacion);
 draw_set_halign( fa_middle);
-//draw_set_valign( fa_middle);
+//draw_set_valign( fa_directory);
 draw_set_color(c_lime );
 
 
 draw_text(room_width/2 ,10,"
-Una pequeña nación es atacada por sorpresa por unos seres de otro planeta#
-destruyendo sus bases militares y dejandolos indefensos para poder defenderse.#
-Entonces desubren en un antiguo angar un viejo tanque de guerras pasadas que aúnque#
+Una pequeña nación es atacada por sorpresa por unos seres de otro planeta, destruyendo
+sus bases militares y dejandolos indefensos para poder defenderse.#
+Entonces desubren en un antiguo angar un viejo tanque de guerra de epocas pasadas, que#
 aún funciona, lamentablemente el cañon quedo inoperativo para poder girar.#
-Este tanque y su piloto, un veterano de guerra, es la unica esperanza#
+Este tanque y su piloto, un veterano de guerra, es la ultima esperanza#
 de esta pequeña nación.#
 Tu mision:#
 Destruir a los invasores con la unica máquina de guerra que queda.#
-Recuerda que el cañon solo dispara hacia arriba, por lo que tendras que moverte#
-muy rapido a los costados para evadir el ataque ebemigo.
+Recuerda que el cañon solo dispara hacia arriba, por lo que tendras que ingeniartelas#para moverte 
+muy rapido a los costados para evadir el ataque enemigo.
 ");
 </string>
           </argument>

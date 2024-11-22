@@ -296,7 +296,7 @@ break;
 draw_set_font(font_menu);
 draw_set_halign( fa_center);
 
-txtMenuMapa = "Estas en el modo mapa, este modo te permite#jugar todas las areas.Pero no podras jugar#la escena final";
+txtMenuMapa = "Estas en el modo mapa, este modo te permite#jugar todas las areas.#Pero no podras jugar la escena final.#Lo siento soldado.";
 txtMapa = "Pulse ESCAPE para abrir el menú de Mapa";
 txtInstrucciones = "Estas son las instrucciones:#Paso1 paso 2 paso3";
 strSalirInstrucciones ="Pulse ENTER para volver al menú";

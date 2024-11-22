@@ -217,7 +217,7 @@ txtInicio = "Pulse cualquier tecla para comenzar";
 txtInicio2 ="Desarrollado por Wilfredo Chipana 2018";
 
 //Texto para Opciones
-txtOpciones = "Estas son las opciones:#ESPACIO para maximizar o minimizar pantalla";
+txtOpciones = "Estas son las opciones:#Espacio: para maximizar o minimizar pantalla.#Es todo por el momento, espere instrucciones.";
 strSalirOpciones ="Pulse ENTER para volver al menu";
 
 switch (global.strEstadoJuego)

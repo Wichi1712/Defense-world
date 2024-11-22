@@ -80,7 +80,7 @@ if(activeAlpha){
     if(image_alpha == 0)instance_destroy();   
 }
 
-if(y &lt;= 17) {
+if(y &lt;= 32) {
     //alarm[1] = room_speed * 10;
     global.medallas += 1;
     instance_destroy();  

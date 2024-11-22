@@ -10,6 +10,8 @@
     <sound>sound\Creep</sound>
     <sound>sound\Disparo</sound>
     <sound>sound\sn_bonus</sound>
+    <sound>sound\Hit</sound>
+    <sound>sound\Hit_boss</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_selectorizquierda</sprite>
@@ -109,6 +111,9 @@
       <sprite>sprites\spr_topbar</sprite>
       <sprite>sprites\spr_tankStop</sprite>
       <sprite>sprites\spr_tankMove</sprite>
+      <sprite>sprites\spr_tankStop_v2</sprite>
+      <sprite>sprites\spr_tankMove_v2</sprite>
+      <sprite>sprites\spr_tankJump_v2</sprite>
     </sprites>
     <sprite>sprites\spr_pausa</sprite>
     <sprites name="Areas">

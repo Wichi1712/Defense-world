@@ -551,12 +551,12 @@ draw_text( room_width/2, room_height/2 + 40, string_upper("Mision Completa"));
 
 //Diseño de dibujo de medallas
 draw_set_font(font_barra);
-draw_set_color(c_white);
+//draw_set_color(c_white);
 //draw_text( 108, 8, "Medalla");
-draw_sprite( spr_bonus, 0, 214, 17);
+draw_sprite( spr_bonus, 0, 214, 32);//Sprite de medalla
 draw_set_color(c_yellow);
 //draw_set_font(font_barra);
-draw_text( 250, 8, " X  " + string(global.medallas));
+draw_text( 250, 24, " X  " + string(global.medallas));
 </string>
           </argument>
         </arguments>
