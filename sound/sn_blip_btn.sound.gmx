@@ -2,10 +2,10 @@
 <sound>
   <kind>0</kind>
   <extension>.wav</extension>
-  <origname>D:\proyectos\gameMaker-proyectos\Defense World.gmx\\sound\audio\Hit_boss.wav</origname>
+  <origname>Blip_button.wav</origname>
   <effects>0</effects>
   <volume>
-    <volume>0.69</volume>
+    <volume>0.44</volume>
   </volume>
   <pan>0</pan>
   <bitRates>
@@ -21,7 +21,7 @@
     <bitDepth>16</bitDepth>
   </bitDepths>
   <preload>-1</preload>
-  <data>Hit_boss.wav</data>
+  <data>sn_blip_btn.wav</data>
   <compressed>0</compressed>
   <streamed>0</streamed>
   <uncompressOnLoad>0</uncompressOnLoad>

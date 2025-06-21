@@ -57,7 +57,7 @@ draw_set_halign( fa_middle);
 //draw_set_valign( fa_directory);
 draw_set_color(c_lime );
 
-
+draw_background(bg_diagram_tank,x,y);
 draw_text(room_width/2 ,10,"
 Una pequeña nación es atacada por sorpresa por unos seres de otro planeta, destruyendo
 sus bases militares y dejandolos indefensos para poder defenderse.#

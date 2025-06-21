@@ -204,7 +204,7 @@ if ( global.estadoBoss = "war")
             <kind>1</kind>
             <string>///reduce la energia
 
-global.saludBoss -= 2;
+global.saludBoss -= 1;
 
 </string>
           </argument>

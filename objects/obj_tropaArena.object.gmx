@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Variables
+            <string>///Variables==&gt;vida
 image_speed = 0.2;
-vida = 1;
+vida = 5;
 oscuro = 255;
 
 movHorizontal = 2;

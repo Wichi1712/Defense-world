@@ -12,6 +12,7 @@
     <sound>sound\sn_bonus</sound>
     <sound>sound\Hit</sound>
     <sound>sound\Hit_boss</sound>
+    <sound>sound\sn_blip_btn</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_selectorizquierda</sprite>
@@ -114,6 +115,8 @@
       <sprite>sprites\spr_tankStop_v2</sprite>
       <sprite>sprites\spr_tankMove_v2</sprite>
       <sprite>sprites\spr_tankJump_v2</sprite>
+      <sprite>sprites\spr_tank_V3</sprite>
+      <sprite>sprites\spr_tank_move_V3</sprite>
     </sprites>
     <sprite>sprites\spr_pausa</sprite>
     <sprites name="Areas">
@@ -128,6 +131,7 @@
     </sprites>
     <sprite>sprites\spr_explosion</sprite>
     <sprite>sprites\spr_boxColicion</sprite>
+    <sprite>sprites\spr_caida_agua</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_desert</background>
@@ -145,6 +149,13 @@
     <background>background\bg_magneto</background>
     <background>background\bg_tiles</background>
     <background>background\bg_fondoMenu0</background>
+    <background>background\bg_desert2</background>
+    <background>background\bg_ciudadNocturna</background>
+    <background>background\bg_electro2</background>
+    <background>background\bg_fondo_menu01</background>
+    <background>background\bg_menu_nocturno</background>
+    <background>background\bg_diagram_tank</background>
+    <background>background\bg_fondo_angar</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_BossNeon</path>
@@ -283,6 +294,7 @@
       <object>objects\obj_control_mapa</object>
       <object>objects\obj_presentacion</object>
     </objects>
+    <object>objects\obj_caida_agua</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rom_menu</room>

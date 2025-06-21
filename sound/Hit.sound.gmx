@@ -2,10 +2,10 @@
 <sound>
   <kind>0</kind>
   <extension>.wav</extension>
-  <origname>Hit.wav</origname>
+  <origname>D:\proyectos\gameMaker-proyectos\Defense World.gmx\\sound\audio\Hit.wav</origname>
   <effects>0</effects>
   <volume>
-    <volume>0.66</volume>
+    <volume>0.05</volume>
   </volume>
   <pan>0</pan>
   <bitRates>
