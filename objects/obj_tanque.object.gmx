@@ -29,7 +29,7 @@
 
 global.salud = 100;
 activo = true;
-image_speed = 0.4;
+image_speed = 0.2;
 
 vspeed = 0;
 movehor = 0;    //velocidad horizontal
@@ -37,6 +37,7 @@ movespeed = 3;  //velocidad de movimiento
 jumpspeed = 9;  //velocidad de salto
 gravedad = 0.7;
 
+instance_create( x,y + 10, o_canion_0);
 </string>
           </argument>
         </arguments>
@@ -95,8 +96,8 @@ if ( activo = true)
     hspeed = +movehor;
     //cambio de sprite
     if (movehor !=0)
-    { sprite_index = spr_tank_move_V3;}//spr_tankMove_v2;}// spr_tanquemove;}
-    else{ sprite_index = spr_tank_V3;}//spr_tankStop_v2;}// spr_tanque_stop;}
+    { sprite_index = spr_tank_01_move;}//spr_tankMove_v2;}// spr_tanquemove;}
+    else{ sprite_index = spr_tank_01_stop;}//spr_tankStop_v2;}// spr_tanque_stop;}
     //Fin movimiento horizontal
     
     
@@ -104,9 +105,12 @@ if ( activo = true)
     if( distance_to_object( obj_Ballfire)&gt;50){
         if( keyboard_check( ord("A")))
             {
+            //sprite_index = spr_tank_0_shoot;
+            instance_activate_object( o_canion_0);
              instance_create(x, y - 20, obj_Ballfire);
-             obj_Ballfire.vspeed =-10;
+             obj_Ballfire.vspeed =-10; 
             }
+            //else{ instance_deactivate_object( o_canion_0)}
     }
     //Fin disparo
     
@@ -307,6 +311,7 @@ alarm[0] = room_speed/4;
 if (global.salud &lt;= 0)
 {
 global.salud = 0;
+instance_create(x,y, o_tank_0_destroy);
 instance_destroy();
 global.estado = 3;
 }
@@ -392,6 +397,7 @@ alarm[0] = room_speed/4;
 if (global.salud &lt;= 0)
 {
 global.salud = 0;
+instance_create(x,y, o_tank_0_destroy);
 instance_destroy();
 global.estado = 3;
 }
@@ -477,6 +483,7 @@ alarm[0] = room_speed/4;
 if (global.salud &lt;= 0)
 {
 global.salud = 0;
+instance_create(x,y, o_tank_0_destroy);
 instance_destroy();
 global.estado = 3;
 }
@@ -562,6 +569,7 @@ alarm[0] = room_speed/4;
 if (global.salud &lt;= 0)
 {
 global.salud = 0;
+instance_create(x,y, o_tank_0_destroy);
 instance_destroy();
 global.estado = 3;
 }
@@ -671,6 +679,7 @@ i.String = string(Score);
 if (global.salud &lt;= 0)
 {
 global.salud = 0;
+instance_create(x,y, o_tank_0_destroy);
 instance_destroy();
 global.estado = 3;
 }

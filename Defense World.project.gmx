@@ -117,6 +117,13 @@
       <sprite>sprites\spr_tankJump_v2</sprite>
       <sprite>sprites\spr_tank_V3</sprite>
       <sprite>sprites\spr_tank_move_V3</sprite>
+      <sprite>sprites\spr_tank_0_stop</sprite>
+      <sprite>sprites\spr_tank_0_move</sprite>
+      <sprite>sprites\spr_tank_0_shoot</sprite>
+      <sprite>sprites\spr_canion_0</sprite>
+      <sprite>sprites\spr_tank_01_stop</sprite>
+      <sprite>sprites\spr_tank_01_move</sprite>
+      <sprite>sprites\spr_tank_0_destroy</sprite>
     </sprites>
     <sprite>sprites\spr_pausa</sprite>
     <sprites name="Areas">
@@ -156,6 +163,7 @@
     <background>background\bg_menu_nocturno</background>
     <background>background\bg_diagram_tank</background>
     <background>background\bg_fondo_angar</background>
+    <background>background\bg_diagram_presentation</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_BossNeon</path>
@@ -263,6 +271,8 @@
       <object>objects\obj_Ballfire</object>
       <object>objects\obj_barraplayer</object>
       <object>objects\obj_bonus</object>
+      <object>objects\o_canion_0</object>
+      <object>objects\o_tank_0_destroy</object>
     </objects>
     <objects name="Parents">
       <object>objects\par_boss</object>
