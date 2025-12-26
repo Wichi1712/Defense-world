@@ -196,8 +196,8 @@ if( vida==0){
 
 //Mostramos la vida actual
 //Creación de punto flotante este funciona con obj_puntoflotante
-i = instance_create(x,y, obj_puntoflotante);
-i.String = string(vida);
+//i = instance_create(x,y, obj_puntoflotante);
+//i.String = string(vida);
 </string>
           </argument>
         </arguments>

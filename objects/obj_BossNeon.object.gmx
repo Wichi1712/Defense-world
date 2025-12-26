@@ -27,10 +27,10 @@
             <kind>1</kind>
             <string>///Variables Boss
 
-image_speed = 0.5;
+image_speed = 0.2;
 
 global.saludBoss = 100;
-global.nombreBoss = "GhostNeon";
+global.nombreBoss = "Neon Crab";//""Neon Ghost"
 global.estadoBoss = "stop";
 faseAtaque = 0;
 color = 255;
